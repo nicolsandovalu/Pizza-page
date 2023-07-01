@@ -1,31 +1,8 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +12,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.carro{
+  margin: 20px;
+  padding: 5px;
+}
+
+.total {
+  margin: 50px;
+  padding: 5px;
+  font-size: 30px;
+  border: 10px solid rgb(0, 0, 0);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  text-align: center;
+}
+
+.carrito{
+  width: 1000px;
+}
+
+nav{
+  background-color: rgba(70, 172, 255, 0.747);
+}
+
+.Pizzafoto{
+  width: 600px;
+  margin-left: 25%;
+}
+
+.product {
+  font-size: 90px;
+  text-align: center;
+  margin: 10px;
+}
+
+.pizzaproduct{
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
