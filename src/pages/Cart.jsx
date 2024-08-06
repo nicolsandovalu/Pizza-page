@@ -19,7 +19,7 @@ const Cart = () => {
                 <div key = {index}>
                     <div className="card">
                 <div className="col-sm-4">
-                    <img src={item.img} className="img-fluid"/>
+                    <img src={item.img} className="img-fluid" alt="Pizza"/>
                     </div>
                     <h3 className="display-6">{item.name}</h3>
                     <p>${item.price}</p>

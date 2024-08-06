@@ -8,14 +8,14 @@ export const PizzasProvider = ({children}) => {
         const [pizzas, setPizzas] = useState ([]);
         const [cart, setCart] = useState ([]);
 
-        const {data, loading, error} = useFetch ('/pizzas.json')
+        const {data, loading} = useFetch ('/pizzas.json')
         console.log (data);
 
         useEffect (() => {
             if (data) {
                 setPizzas (data);
             }
-        }, [data]);
+        }, [data]); 
 
         const addToCart = (pizza) => {
 
